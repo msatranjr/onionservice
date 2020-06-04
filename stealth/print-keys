@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo "SSH keys"
+cat /var/lib/tor/hidden_service_ssh/hostname
+
+echo "HTTP 80 keys"
+cat /var/lib/tor/hidden_service_http80/hostname
